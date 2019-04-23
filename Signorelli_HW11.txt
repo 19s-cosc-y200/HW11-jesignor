@@ -1,0 +1,67 @@
+Project Name: 
+Author: Julia Signorelli
+Date Last Modified: 23 April 2019
+------------------------------------------------------------------------------------------------------------------------------------------
+1. Write the HTML for a paragraph that uses inline styles to configure the background color of green and the text color of white.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Question 1</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<main> 
+<text style="background-color:green;color:white">Here is some text with color. Wow!</text><br/>
+Now, the color is gone. Cool!
+</main>
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2. Write the HTML and CSS code for an embedded style sheet that configures a background color of #EAEAEA and a text color of #000033.
+
+CSS Code: (titled q2.css)
+body { background-color: #EAEAEA; color: #000033; }
+
+HTML Code: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Question 2</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="q2.css">
+</head>
+<body>
+<main>
+Here is some text. Not much else to it. 
+</main>
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------
+3. Write the CSS code for an external style sheet that configures the text to be brown, 1.2em in size, and in Arial, Verdana, or a sans-serif font.
+
+body { color: brown; font-size: 1.2em; font-family: Arial, Verdana, sans-serif; }
+
+------------------------------------------------------------------------------------------------------------------------------------------
+4. Write the HTML and CSS code for an embedded style sheet that configures a class called new that is bold and italic.
+
+CSS Code: (titled q4.css)
+.new { font-style: italic; font-weight: bold; }
+
+HTML Code: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Question 2</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="q4.css">
+</head>
+<body>
+<main>
+Here is some text. Not much else to it. <br/>
+<span class="new">Now, it looks a bit more zazzy!</span>
+</main>
+</body>
+</html>
