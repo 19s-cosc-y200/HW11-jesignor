@@ -18,11 +18,17 @@ Now, the color is gone. Cool!
 </body>
 </html>
 
+should be in hex
+should be p, not text
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 2. Write the HTML and CSS code for an embedded style sheet that configures a background color of #EAEAEA and a text color of #000033.
 
 CSS Code: (titled q2.css)
 body { background-color: #EAEAEA; color: #000033; }
+
+embedded, not external
+
 
 HTML Code: 
 <!DOCTYPE html>
@@ -44,7 +50,12 @@ Here is some text. Not much else to it.
 
 body { color: brown; font-size: 1.2em; font-family: Arial, Verdana, sans-serif; }
 
+should be in hex
+
 ------------------------------------------------------------------------------------------------------------------------------------------
+
+embedded, not external
+
 4. Write the HTML and CSS code for an embedded style sheet that configures a class called new that is bold and italic.
 
 CSS Code: (titled q4.css)
